@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="i3_Suite"
+	skipfailedinvocationcounts="false" junit="false" parallel="methods"
+	data-provider-thread-count="1" annotations="JDK" >
+
+	<test verbose="2" name="i3" annotations="JDK" preserve-order="true">
+		<classes>	
+		   	<class name="com.chimera.test.i3Test">
+	        </class>
+		</classes>
+	</test>
+</suite>

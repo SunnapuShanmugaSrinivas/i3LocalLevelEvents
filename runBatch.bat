@@ -1,0 +1,1 @@
+cmd /k mvn clean test exec:java -Dexec.mainClass=com.chimera.email.sendEmail
